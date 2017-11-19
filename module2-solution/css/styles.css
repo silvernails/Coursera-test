@@ -1,0 +1,78 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+  font-family: "Apple Chancery", cursive;}
+
+div {  
+ margin:1%; }
+
+section{
+ clear:right;
+ padding:20px;}
+
+h1{
+  text-align: center;
+  color:#C0392B;}
+
+#header {
+  float: right;
+  margin-top:0%;
+  width:30%;
+  text-align:center;}
+
+.container{
+  background-color: #D6EAF8;
+  margin-bottom: 2px;
+  border: 3px solid green;
+  color: #283747;}
+
+.header1{
+  background-color: #145A32;
+  color:white;}
+  .header2{
+  background-color: #145A32;
+  color:white;}
+  .header3{
+  background-color: #145A32;
+  color:white;}
+
+/********** Large devices only **********/
+@media (min-width: 992px) {
+  .col-lg {
+    float:left;
+    border: 3px solid #145A32;
+    width: 31.3%;
+    background-color: #F9E79F;
+    color:#145A32;}
+  .header1{
+    background-color: #145A32;
+    color:#D68910;}}
+  .header2{
+    background-color: #196F3D;
+    color:#F39C12;}
+  .header3{
+    background-color: #1E8449;
+    color:#F5B041;}
+  
+
+  /********** Medium devices only **********/
+@media (min-width:768px) and (max-width: 991px) {
+  .col-md-1, .col-md-2, .header, .header2, .header3{
+    float: left;    
+    background-color: #E5E8E5;
+    color:#7B241C;}
+  .col-md-1 {
+    border: 3px solid #424949;
+    width: 48%;}
+  .col-md-2 {
+    border: 3px solid #424949;
+    width: 98%;}  
+  .header1{
+    background-color: #424949;
+    color:#D98880;}
+  .header2{
+    background-color: #515A5A;
+    color:#CD6155;}
+  .header3{
+    background-color: #616A6B;
+    color:white;}}
